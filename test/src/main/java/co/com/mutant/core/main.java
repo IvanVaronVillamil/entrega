@@ -27,7 +27,7 @@ public class main implements RequestHandler<Object, String> {
 
     public String validate(RqIsMutantDto args) {
         String[] dna = args.getDna();
-        System.out.println("Parametros de entrada {}" + dna);
+        System.out.println("Parametros de entrada {} " + dna);
         List<String[]> tt1 = new ArrayList<String[]>();
 
         for (String x : dna) {
